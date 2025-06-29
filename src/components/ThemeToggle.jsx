@@ -9,11 +9,14 @@ export const ThemeToggle = () => {
     useEffect(()=>{
         const storeTheme=localStorage.getItem("theme");
         if(storeTheme === "dark"){
+            setisDarkMode(true);
                document.documentElement.classList.add("dark");
-               setisDarkMode(true);
+               
         }else{
+                  
                document.documentElement.classList.remove("dark");
-               setisDarkMode(false);
+                setisDarkMode(false);
+        
         }
     },[])
 
