@@ -4,11 +4,11 @@ import { cn } from '../lib/utils'
 import { Menu, X } from 'lucide-react'
 
 const navItems=[
-    {name: "home",href:"#hero"},
-    {name: "about",href:"#about"},
-    {name: "skills",href:"#skills"},
-    {name: "projects",href:"#projects"},
-    {name: "contact",href:"#contact"},
+    {name: "Home",href:"#hero"},
+    {name: "About",href:"#about"},
+    {name: "Skills",href:"#skills"},
+    {name: "Projects",href:"#projects"},
+    {name: "Contact",href:"#contact"},
 ]
 export const NavBar = () => {
     const[isScrolled,setIsScrolled]=useState(false)
