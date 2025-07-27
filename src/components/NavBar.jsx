@@ -89,14 +89,16 @@ export const NavBar = () => {
 
                 {/* Right: Theme Toggle & Mobile Button */}
                 <div className="flex-1 flex justify-end items-center mr-4 space-x-4">
-                    <ThemeToggle />
-                    <button
-                        onClick={() => setMenuOpen((prev) => !prev)}
-                        className="md:hidden p-2 text-foreground"
-                    >
-                        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-                    </button>
-                </div>
+  <div className="flex items-center">
+    <ThemeToggle />
+  </div>
+  <button
+    onClick={() => setMenuOpen((prev) => !prev)}
+    className="md:hidden p-2 text-foreground flex items-center justify-center"
+  >
+    {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+  </button>
+</div>
 
                 {/* Mobile Menu */}
                 <div
@@ -110,7 +112,7 @@ export const NavBar = () => {
                     {/* Indicator for Mobile */}
                     <div
                         ref={mobileIndicatorRef}
-                        className="absolute left-0 bg-primary/20 rounded-md transition-all duration-300"
+                        className="absolute  bg-primary/20 rounded-md transition-all duration-300"
                         style={{ width: "0px", height: "0px", top: "0px" }}
                     />
                     {navItems.map((item, index) => (
