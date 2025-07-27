@@ -120,7 +120,7 @@ export const NavBar = () => {
                             key={index}
                             href={item.href}
                             onMouseEnter={(e) => handleMobileHover(index, e)}
-                            onClick={() => setMenuOpen(false)}
+                            // onClick={() => setMenuOpen(false)}
                             className="relative z-10 px-2 py-2 text-foreground hover:text-primary transition-colors duration-300 rounded-md"
                         >
                             {item.name}
