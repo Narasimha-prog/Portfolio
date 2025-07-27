@@ -1,5 +1,6 @@
 import { ArrowDown } from 'lucide-react'
 import React from 'react'
+import { Skills } from './Skills'
 
 export const HeroSection = () => {
   return (
@@ -22,6 +23,7 @@ entry-level software engineering position. Proficient in Java , Spring Boot,Spri
                                 View My Work
                             </a>
                           </div>
+                          <Skills/>
                     </div>
                 </div>
                 <div className='absolute bottom-8 left-1/2 transform -translate-x-1/2  flex flex-col items-center animate-bounce'>
