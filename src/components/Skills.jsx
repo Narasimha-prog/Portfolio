@@ -5,14 +5,13 @@ import { MdJavascript } from "react-icons/md";
 import { SiJavascript, SiSpringboot, SiSpringsecurity, SiTailwindcss } from "react-icons/si";
 
 const skills = [
-  { name: "React", icon: <FaReact size={40} className="text-blue-500" /> },
-  { name: "Tailwind", icon: <SiTailwindcss size={40} className="text-sky-400" /> },
-  { name: "Node.js", icon: <SiSpringboot size={40} className="text-green-500" /> },
-  { name: "JS", icon: <SiSpringsecurity size={40} className="text-yellow-400" /> }, 
-   { name: "JS", icon: <SiJavascript size={40} className="text-yellow-400" /> }, 
-    { name: "JS", icon: <DiHtml5 size={40} className="text-yellow-400" /> }, 
-     { name: "JS", icon: <FaJava size={40} className="text-yellow-400" /> }, 
-  // example extra
+   { name: "React", icon: <FaReact size={40} className="text-blue-500" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss size={40} className="text-sky-400" /> },
+  { name: "Spring Boot", icon: <SiSpringboot size={40} className="text-green-500" /> },
+  { name: "Spring Security", icon: <SiSpringsecurity size={40} className="text-green-700" /> },
+  { name: "JavaScript", icon: <SiJavascript size={40} className="text-yellow-400" /> },
+  { name: "HTML5", icon: <DiHtml5 size={40} className="text-orange-500" /> },
+  { name: "Java", icon: <FaJava size={40} className="text-red-500" /> },
 ];
 
 export const Skills = () => {
