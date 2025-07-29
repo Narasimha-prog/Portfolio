@@ -21,9 +21,13 @@ export const ContactSection = () => {
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
             <div className="space-y-6 justify-center">
               <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-6 w-6 text-primary" />
-                </div>
+                 <a 
+        href="mailto:lnreddyreddy405@gmail.com" 
+        target="_blank"
+        className="p-3 rounded-full bg-primary/10 cursor-pointer hover:bg-primary/20 transition"
+      >
+        <Mail className="h-6 w-6 text-primary" />
+      </a>
                 <div>
                   <h4 className="font-medium">Email</h4>
                   <a href="mailto:lnreddyreddy405@gmail.com" 
@@ -35,9 +39,12 @@ export const ContactSection = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
+                <a 
+                href="tel:+917569208701" 
+                target="_blank"
+                className="p-3 rounded-full bg-primary/10 cursor-pointer hover:bg-primary/20 transition">
                   <PhoneCall className="h-6 w-6 text-primary" />
-                </div>
+                </a>
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a href="tel:+917569208701" 
@@ -49,9 +56,12 @@ export const ContactSection = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
+                <a 
+                href="https://www.bing.com/maps?q=bapatla+district" 
+                target="_blank"
+                className="p-3 rounded-full bg-primary/10 cursor-pointer hover:bg-primary/20 transition">
                   <MapPin className="h-6 w-6 text-primary" />
-                </div>
+                </a>
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <a href="https://www.bing.com/maps?q=bapatla+district" 
@@ -115,7 +125,7 @@ export const ContactSection = () => {
               <button 
                 type="submit" 
                 disabled={isSubmitted}
-                className={cn("cosmic-button w-full flex justify-center items-center gap-2")}
+                className={cn("cosmic-button w-full flex justify-center items-center gap-2 cursor-pointer")}
               >
                 {isSubmitted ? "Sending..." : "Send Message"}
                 <Send size={16}/>

@@ -89,7 +89,7 @@ export const NavBar = () => {
 
                 {/* Right: Theme Toggle & Mobile Button */}
                 <div className="flex-1 flex justify-end items-center mr-4 space-x-4">
-  <div className="flex items-center">
+  <div className="flex items-center cursor-p">
     <ThemeToggle />
   </div>
   <button
@@ -103,7 +103,7 @@ export const NavBar = () => {
                 {/* Mobile Menu */}
                 <div
                     className={cn(
-                        "fixed top-16 right-4 bg-background/95 backdrop-blur-md rounded-xl shadow-lg px-4 py-3 w-44 flex flex-col space-y-2 transition-all duration-300",
+                        "fixed top-16 right-4 bg-background/95 backdrop-blur-md rounded-xl shadow-lg px-4 py-3 w-44 flex flex-col space-y-2 transition-all duration-300 cursor-pointer",
                         isMenuOpen
                             ? "opacity-100 translate-y-0"
                             : "opacity-0 -translate-y-4 pointer-events-none"
