@@ -19,7 +19,7 @@ const projects=[
     },
       {id: 3,
       title: "WhatsApp Clone Application",  
-      description:"A Java Microservices Using Gemini Ai support ,Spring Reactive Gateway",
+      description:"A Chat Application with webSocket Using Angular ,KeyCloak,Spring Boot",
       image:"/projects/Create-WhatsApp-Clone-2.png",
       tags: ["Angular","Tailwindcss","Java","SpringBoot","KeyCloak"],
        demoUrl:"https://github.com/Narasimha-prog/whatsAppCloneProject",
