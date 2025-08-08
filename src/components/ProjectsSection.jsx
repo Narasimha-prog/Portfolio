@@ -16,6 +16,22 @@ const projects=[
       tags: ["React","MaterialUI","Java","SpringBoot","KeyCloak"],
        demoUrl:"https://github.com/Narasimha-prog/java-springboot-microservise-withAI",
       gitHubUrl:"https://github.com/Narasimha-prog/java-springboot-microservise-withAI"
+    },
+      {id: 3,
+      title: "WhatsApp Clone Application",  
+      description:"A Java Microservices Using Gemini Ai support ,Spring Reactive Gateway",
+      image:"/projects/Create-WhatsApp-Clone-2.png",
+      tags: ["Angular","Tailwindcss","Java","SpringBoot","KeyCloak"],
+       demoUrl:"https://github.com/Narasimha-prog/whatsAppCloneProject",
+      gitHubUrl:"https://github.com/Narasimha-prog/whatsAppCloneProject"
+    },
+     {id: 4,
+      title: "Ecommerce Application",  
+      description:"A  Full Stack Java Spring Boot Using Angular ,Spring Boot    Note: It is In Still Progress",
+      image:"/projects/Screenshot from 2025-08-08 14-21-44.png",
+      tags: ["Angular","Tailwindcss","Java","SpringBoot","Kinde"],
+       demoUrl:"https://github.com/Narasimha-prog/EcommerceFullStackApplication",
+      gitHubUrl:"https://github.com/Narasimha-prog/EcommerceFullStackApplication"
     }
 ]
 export const ProjectsSection = () => {

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { DiAngularSimple, DiCss3, DiHtml5, DiJava, DiJavascript } from "react-icons/di";
-import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJava, FaAngular } from "react-icons/fa";
 import { MdJavascript } from "react-icons/md";
 import { SiJavascript, SiSpringboot, SiSpringsecurity, SiTailwindcss } from "react-icons/si";
 
@@ -12,6 +12,7 @@ const skills = [
   { name: "JavaScript", icon: <SiJavascript size={40} className="text-yellow-400" /> },
   { name: "HTML5", icon: <DiHtml5 size={40} className="text-orange-500" /> },
   { name: "Java", icon: <FaJava size={40} className="text-red-500" /> },
+   { name: "Java", icon: <FaAngular size={40} className="text-red-500" /> },
 ];
 
 export const Skills = () => {
