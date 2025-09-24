@@ -28,9 +28,9 @@ const projects=[
      {id: 4,
       title: "Ecommerce Application",  
       description:"A  Full Stack Java Spring Boot Using Angular ,Spring Boot    Note: It is In Still Progress",
-      image:"/projects/Screenshot from 2025-08-08 14-21-44.png",
+      image:"/projects/ecommerce_home_page.png",
       tags: ["Angular","Tailwindcss","Java","SpringBoot","Kinde"],
-       demoUrl:"https://github.com/Narasimha-prog/EcommerceFullStackApplication",
+       demoUrl:"https://ecommercefullstackapplication-frontend.onrender.com/",
       gitHubUrl:"https://github.com/Narasimha-prog/EcommerceFullStackApplication"
     }
 ]
@@ -46,7 +46,8 @@ Each project demonstrates my commitment to creating effective, user-friendly sof
 
        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                {projects.map(  (project,key)=>(
-                <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+
+                <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover" >
                     <div className="h-48 overflow-hidden">
                         <img src={project.image} alt={project.title} className="h-full w-full  transition-transform object-cover duration-500 group-hover:scale-110"/>
                     </div>
