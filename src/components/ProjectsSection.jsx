@@ -30,7 +30,7 @@ const projects=[
       description:"A  Full Stack Java Spring Boot Using Angular ,Spring Boot    Note: It is In Still Progress",
       image:"/projects/ecommerce_home_page.png",
       tags: ["Angular","Tailwindcss","Java","SpringBoot","Kinde"],
-       demoUrl:"https://ecommercefullstackapplication-frontend.onrender.com/",
+       demoUrl:"https://angularfrontendecommerceapplication.onrender.com/",
       gitHubUrl:"https://github.com/Narasimha-prog/EcommerceFullStackApplication"
     }
 ]
