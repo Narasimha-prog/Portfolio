@@ -20,7 +20,7 @@ I am confident in building scalable, efficient applications using modern Java te
           <a href="#contact" className='cosmic-button'>
             Get in Touch
           </a>
-           <a href="LNR_Resume01.pdf" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>
+           <a href="LakshmiNarasimhaReddyResume.pdf" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>
             Download CV
           </a>
        </div>
